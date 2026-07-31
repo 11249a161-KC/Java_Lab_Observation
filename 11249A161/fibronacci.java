@@ -9,7 +9,10 @@ public class fibronacci {
         x = myObj.nextInt();
 
         int i = 1;
-        while(i <= x)
+    
+    System.out.println("Fibronacci sequence of " + x + " numbers: ");
+
+            while(i <= x)
         {
             System.out.println(num1+"");
             int sum = num1 + num2;
@@ -17,7 +20,5 @@ public class fibronacci {
             num2 = sum;
             i++;
         }
-    
-    System.out.println("Fibronacci sequence of " + x + " numbers: ");
     }
 }
